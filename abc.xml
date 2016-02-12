@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="java" basedir="." default="notify">
+<project name="abc" basedir="." default="notify">
    <target name="notify">
       <java fork="true" failonerror="yes" classname="abc">
          <arg line="admin@test.com"/>
